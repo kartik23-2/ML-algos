@@ -1,4 +1,6 @@
-##  Regularization --> Regularization is a technique used in machine learning to reduce overfitting by penalizing large coefficients (weights) in your model.(mtlb train data pe bohot accha krega pr test data pe acha ni krega).
+##  Regularization --> Regularization is a technique used in machine learning to reduce overfitting by penalizing large coefficients (weights) in your model.
+
+(mtlb train data pe bohot accha krega pr test data pe acha ni krega).
 
 ##  Types of Regularization
 
