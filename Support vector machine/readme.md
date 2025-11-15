@@ -43,14 +43,57 @@ Minimize:  1/2 ||w||² + C Σ ξᵢ
 
 
 ###### Where:
-
-C = how strict SVM is
+### hyperparameter tuning
+1. C = how strict SVM is
 
 High C → fewer mistakes, small margin
 
 Low C → more mistakes allowed, large margin
 
 Big margin tends to generalize better.
+
+2. Kernel (linear, poly, rbf, sigmoid)
+
+Choose based on the nature of your data.
+
+Data Pattern	Best Kernel
+Linearly separable	Linear
+Complex boundary, curved	RBF
+Polynomial relation	Polynomial
+
+3. Gamma (γ) — RBF / Polynomial Kernels
+
+Controls how far the influence of a single training example reaches.
+
+* High Gamma
+
+Very small radius
+
+Boundary too tight
+
+Overfitting
+
+* Low Gamma
+
+Wider influence
+
+Smoother boundary
+
+Underfitting possible
+
+### hyperplane
+
+A hyperplane is a decision boundary that separates data points into classes.
+
+In 2D, it’s a line
+
+In 3D, it’s a plane
+
+In higher dimensions, it’s a hyperplane
+
+🔹 Goal of SVM: Find the Optimal Hyperplane
+
+Among all possible separating boundaries, SVM chooses the one that creates the maximum margin between the classes.
 
 ## The Kernel Trick: The "Magic" for Non-Linear Data
 
