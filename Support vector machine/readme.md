@@ -114,5 +114,4 @@ The kernel is the mathematical function that performs this "popping" (the projec
 Common Kernels to Know:
 1. 'linear': For data that is already linearly separable. This is the simple case we started with.
 2. 'poly': The polynomial kernel. This is exactly like the PolynomialFeatures we used before. It creates features like X^2, X^3, etc., allowing it to find curved boundaries.
-3. 'rbf' (Radial Basis Function): This is the default and most powerful kernel. It's a "Gaussian" kernel that can handle even very complex, "blob-like" shapes. It projects the data into an infinite-dimensional space, but it's very fast and efficient. ##Hyperparameter Tuning: Controlling Your SVM
-When you use an rbf kernel, your goal is to find the best-fit boundary that isn't overfitting or underfitting. You control this using two main "knobs" (hyperparameters).
+3. 'rbf' (Radial Basis Function): This is the default and most powerful kernel. It's a "Gaussian" kernel that can handle even very complex, "blob-like" shapes. It projects the data into an infinite-dimensional space, but it's very fast and efficient.

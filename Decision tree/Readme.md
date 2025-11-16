@@ -84,7 +84,7 @@ Decision Tree Classifier uses impurity metrics:
 
 | Metric | Used in | Goal |
 |--------|---------|------|
-| **Entropy** | ID3, C4.5 | Lower entropy = purer node |
+| **Entropy** | ID3 | Lower entropy = purer node |
 | **Gini Index** | CART (most common) | Faster to compute |
 
 Example:
@@ -115,7 +115,7 @@ Solution → **Regularization** using:
 
 ---
 
-### 📊 Confusion Matrix (performance evaluation)
+###  Confusion Matrix (performance evaluation)
 
 Confusion matrix shows predictions vs. actual values:
 
