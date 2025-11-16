@@ -5,6 +5,12 @@ Two major ensemble techniques are:
 
 2. Boosting
 
+***Overfitting** -----> 
+* training accuracy high ----->  LOW BIAS
+* test accuracy low -----> HIGH VARIANCE
+
+###### so random forest helps in converting to low variance with help of so many decision trees(due to row sampling,feture sampling).
+
 Both improve model performance, but their approach is very different.
 ### How Bagging Works 
 
@@ -28,4 +34,3 @@ Both improve model performance, but their approach is very different.
 ###### This reduces overfitting and stabilizes predictions.
 
 
-### how boosting works
